@@ -8,7 +8,7 @@ const isValidName = function (name) {
 }
 
 const isValidEmail = function (email) {
-    return (/^[a-z0-9][a-z0-9-_\.]+@([a-z]|[a-z0-9]?[a-z0-9-]+[a-z0-9])\.[a-z0-9]{2,10}(?:\.[a-z]{2,10})?$/).test(email)
+    return (/^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$/).test(email)
 }
 
 const isValidPassword = function (password) {
